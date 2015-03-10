@@ -5,20 +5,19 @@ html(lang='en')
     title Car Trip
     link(rel='stylesheet', href='/style.css')
   body
-    h1 Car Trip Calculator
-    
     .container
+      h1 Car Trip Calculator
       #inputs
-      h4 Trip Distance
+      h3 Trip Distance
       input#distance(type='text' placeholder='Input trip length')
       
-      h4 Car MPG
+      h3 Car MPG
       input#carmpg(type='text' placeholder='Input car mpg')
       
-      h4 Car Tank
+      h3 Car Tank
       input#cartank(type='text' placeholder='Input car total galloon')  
       
-      h4 Gas Price per Galloon
+      h3 Gas Price per Galloon
       input#gascost(type='text' placeholder='Input gas price')
       
       .row
@@ -28,7 +27,8 @@ html(lang='en')
       #outputs
         .stops
         .totalcost
-        .gasleft  
+        .gasleft
+        .gasneed
             
         
     script(src='/vendor/jquery/dist/jquery.js')
